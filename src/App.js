@@ -10,7 +10,7 @@ function App() {
         w={['98%', '98%', '98%', '90%', '90%']}
         margin="auto"
         mt="2rem"
-        class="chakra-ui-light"
+        class="chakra-ui-dark"
       >
         <Flex
           justify="center"
