@@ -27,7 +27,6 @@ export default function CollectionDescription() {
     const fetchCollectionJSON = async () => {
       const options = {address: contract, chain: 'Eth'}
       const metaData = await Moralis.Web3API.token.getNFTMetadata(options)
-      console.log(metaData)
       setCollectionJSON(metaData)
     }
     fetchCollectionJSON()
