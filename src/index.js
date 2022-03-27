@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 import {MoralisProvider} from 'react-moralis'
@@ -14,8 +13,7 @@ ReactDOM.render(
       appId="Q4SFp1T2sY07hT7TEF9kVtNFcWsdDd6etdYGHCxS"
       serverUrl="https://gvrhkyktpyjl.usemoralis.com:2053/server"
     >
-      <ChakraProvider>
-        <ColorModeScript initialColorMode={theme.config.initialColorMode} />
+      <ChakraProvider theme={theme}>
         <App />
       </ChakraProvider>
     </MoralisProvider>
