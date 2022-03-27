@@ -6,7 +6,12 @@ import TransactionList from './Components/TransactionList'
 function App() {
   return (
     <>
-      <Box w={['98%', '98%', '98%', '90%', '90%']} margin="auto" mt="2rem">
+      <Box
+        w={['98%', '98%', '98%', '90%', '90%']}
+        margin="auto"
+        mt="2rem"
+        class="chakra-ui-light"
+      >
         <Flex
           justify="center"
           alignItems="center"
